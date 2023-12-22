@@ -1,13 +1,181 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <title>Название проекта</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/index.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
-  <body class="button">
-    <header class="title">Шапка</header>
-  </body>
-</html>
+  <body class="page__body body">
+    <header class="main">
+            <a class="main__logo" href="#">
+                <img class='main__logo-image' src="images/fmslogo.svg" width="27" height="32" alt="логотип">
+            </a>
+        <nav class="main-nav">
+            <!-- <p class="header__title">Физико-математическая школа</p> -->
+            <button class="main-nav__toggle" type="button">
+                <span class="visually-hidden">Открыть меню</span>
+            </button>
+            <ul class="main-nav__list site-list">
+                <li class="site-list__item">
+                    <a class="site-list__link">Главная</a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="#">Каталог продукции</a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="#">Подбор программы</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Функциональное развитие мозга</h1>
+        <p>Занялся собой? Займись мозгом!</p>
+        <button>
+            <span>подобрать программу</span>
+        </button>
+        <img>
+    </header>
+
+    <!--Карточки-->
+    <section>
+        <nav class="cards">
+            <ul>
+                <img>
+                <img>
+                <h3>детокс</h3>
+                <p>Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+                <a>
+                    каталог slim
+                    <img>
+                </div>
+            </ul>
+            <ul>
+                <img>
+                <img>
+                <h3>набор массы</h3>
+                <p>Заработать авторитет среди друзей и коллег по песочнице? Для этого нужно регулярно употреблять продукты, которые разовьют вашу эрудированность и словарный запас!</p>
+                <a>
+                    каталог pro
+                    <img>
+                </a>
+            </ul>
+        </nav>
+    </section>
+
+    <!--Как это работает-->
+    <section>
+    <h2>Как это работает</h2>
+    <ul class="how-it-work-list">
+        <li>
+            <div>
+                <img>
+                <img>
+            </div>
+            <p>1</p>
+            <p>Функциональное питание содержит только полезную для мозга литературу.</p>
+        </li>
+        <li>
+            <div>
+                <img>
+                <img>
+            </div>
+            <p>2</p>
+            <p>Выпускается в виде очень толстых  книг, которые нужно лишь прочитать и готово.</p>
+        </li>
+        <li>
+            <div>
+                <img>
+                <img>
+            </div>
+            <p>3</p>
+            <p>Замените один-два приема youtube на наше функциональное развитие.</p>
+        </li>
+        <li>
+            <div>
+                <img>
+                <img>
+            </div>
+            <p>4</p>
+            <p>Уже через месяц наслаждайтесь изменениями к лучшему вашего мозга!</p>
+        </li>
+    </ul>
+    </section>
+
+    <!--Живой пример-->
+    <section>
+    <div class="example">
+        <h2>Живой пример</h2>
+        <div class="example__item">
+            <p>Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день. </p>
+            <div>
+                <div>
+                    <p>50 ЕД</p>
+                    <p>повышение IQ</p>
+                </div>
+                <div>
+                    <p>60 ДНЕЙ</p>
+                    <p>затрачено времени</p>
+                </div>
+                <div>
+                    <p>Затраты на развитие: </p>
+                    <p>15 000 РУБ.</p>
+                </div>
+                <img>
+            </div>
+        </div>
+    </div>
+    <!--Карта-->
+    <div class="location">
+        <div class="contacts">
+            <div>
+                <div>
+                    <p>приглашаем к сотрудничеству дилеров!</p>
+                </div>
+                <div>
+                    <p>ул. Брисова дом 5</p>
+                    <p>г. Красноярск</p>
+                </div>
+            </div>
+        </div>
+        <div class="location__map">
+
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <div>
+            <a class="footer__logo">
+                <img class="footer__logo" src="images/" width="" height="" alt="логотип">
+            </a>
+            <div class="footer__social">
+                <nav class="footer-nav">
+                    <ul class="footer-nav__list social-list">
+                        <li>
+                            <a>
+                                <img src="" alt="вконтакте">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="" alt="ютуб">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <img src="" alt="телеграм">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <a>
+                    <p>
+                        
+                    </p>
+                    <img src="" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
